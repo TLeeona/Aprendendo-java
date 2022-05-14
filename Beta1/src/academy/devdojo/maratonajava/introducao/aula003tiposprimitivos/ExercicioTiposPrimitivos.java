@@ -1,5 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
-
+package academy.devdojo.maratonajava.introducao.aula003tiposprimitivos;
 /**
  * Exercício
  * Crie variáveis para os campos decritos abaixo entr <> e imprima a seguinte mensagem:

@@ -8,7 +8,7 @@ public class Parte02Logicos {
         int resta01 = 20 % 3;
         System.out.println(resta01);
 
-        /* Operadores Lógicos - Não retornam valores aritmetricos, só retornam valores boolean sempre que for falso.
+        /* Operadores Lógicos - Não retornam valores aritmetricos, só retornam valores boolean sempre que for verdadeiro.
          * Alguns deles são: < maior que, > menor que, <= maior ou igual, >= menor ou igual, == igualdade (Já que só um = é
          * usado para dar valor a variável) e != diferente.
          * Ao trabalhar com tipo booleandos existe um padrão, colocar "is" e depois dar o nome para a variável.

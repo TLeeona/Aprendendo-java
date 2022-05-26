@@ -19,17 +19,17 @@ public class Parte04TabelaVerdadeEExercicio {
          *F && F && F && F && F && V = V
          */
         /*Exercício - Dado um determinado salário, eu quero saber qual o valor que eu tenho que pagar.
-        * *$0 à 34,712 - 9,70%
-        * *$34,713 à 68,507 - 37,55%
-        * Acima de 68,508 - 49,50%
+        *$0 à 34,712 - 9,70%
+        *$34,713 à 68,507 - 37,55%
+        *Acima de 68,508 - 49,50%
         */
 
         float salarioDaPessoaA = 70000f;
         String impostoAPagar;
 
-        if (salarioDaPessoaA >= 0 && salarioDaPessoaA <= 34712) {
+        if (salarioDaPessoaA >= 0 && salarioDaPessoaA <= 34.712) {
             impostoAPagar = "9,70%";
-        } else if (salarioDaPessoaA >= 34713 && salarioDaPessoaA <= 68507) {
+        } else if (salarioDaPessoaA >= 34.713 && salarioDaPessoaA <= 68.507) {
             impostoAPagar = "37,55%";
         } else {
             impostoAPagar = "49,50%";

@@ -1,4 +1,5 @@
-class Main {  
+package academy.devdojo.maratonajava.introducao.aula005estruturascondicionais;
+class Parte05Switch {
   public static void main(String args[]) { 
    //Switch - Funcionalidade que organiza quando for necessario usar condicionais simples para escolhas.
     //Imprima o dia da semana, considerando 1 como domingo.

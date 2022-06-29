@@ -1,8 +1,10 @@
-package academy.devdojo.maratonajava.javacorde.aula008;
+package academy.devdojo.maratonajava.javacorde.aula008classes;
 
-public class Parte02ProfessorTeste {
+import academy.devdojo.maratonajava.javacorde.aula008classes.ProfessorDominio;
+
+public class ProfessorTeste {
     public static void main(String[] args) {
-        Parte02ProfessorDominio professor = new Parte02ProfessorDominio();
+        ProfessorDominio professor = new ProfessorDominio();
         professor.nome = "Mestre Kami";
         professor.idade = 75;
         professor.sexo = 'M';

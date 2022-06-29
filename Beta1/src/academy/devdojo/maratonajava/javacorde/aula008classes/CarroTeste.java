@@ -1,6 +1,8 @@
-package academy.devdojo.maratonajava.javacorde.aula008.parte03exercicioclasses;
+package academy.devdojo.maratonajava.javacorde.aula008classes;
 
-public class CarroTest01 {
+import academy.devdojo.maratonajava.javacorde.aula008classes.CarroDominio;
+
+public class CarroTeste {
     public static void main(String[] args) {
         CarroDominio carro01 = new CarroDominio();
         carro01.nome = "Tutubarão";

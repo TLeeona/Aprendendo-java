@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.javacorde.aula008;
 
-public class EstudanteTeste {
+public class Parte01EstudanteTeste {
     public static void main(String[] args) {
-        EstudanteDominio estudante = new EstudanteDominio();
+        Parte01EstudanteDominio estudante = new Parte01EstudanteDominio();
         estudante.nome = "Hinata";
         estudante.idade = 27;
         estudante.sexo = 'F';

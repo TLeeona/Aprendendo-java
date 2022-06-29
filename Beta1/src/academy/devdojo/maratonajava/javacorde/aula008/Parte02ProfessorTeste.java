@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.javacorde.aula008;
 
-public class ProfessorTeste {
+public class Parte02ProfessorTeste {
     public static void main(String[] args) {
-        ProfessorDominio professor = new ProfessorDominio();
+        Parte02ProfessorDominio professor = new Parte02ProfessorDominio();
         professor.nome = "Mestre Kami";
         professor.idade = 75;
         professor.sexo = 'M';

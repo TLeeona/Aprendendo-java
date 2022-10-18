@@ -18,17 +18,17 @@ public class Parte01 {
         // com que ele aceito o null.
         System.out.println("Idade nula " +idades01);
 
-        int [] idades02 = new int[3]; //É necessário informar quantos espações você quer dentro daquela memória. Nesse
+        int [] idades05 = new int[3]; //É necessário informar quantos espações você quer dentro daquela memória. Nesse
         // caso, é o valor 3, quie colocarmos no [], apois new int.
         //Existem posições para colocar as informções, começando pelo 0. Então, a informação 1 vai ficar alocada na
         // posição 0, a informação 2 vai ficar na posição 1 e assim sucessivamente. CUIDADO! VAI FICAR CONFUSO.
-        idades02 [0] = 45;
-        idades02 [1] = 72;
-        idades02 [2] = 16;
+        idades05 [0] = 45;
+        idades05 [1] = 72;
+        idades05 [2] = 16;
         //Caso você coloque uma posição a mais do que foi informado no "new int [3]" ou imprimir uma posição quie não
         // existe, vai dar uma erro de copilação.
 
-        System.out.println("Idade usando Arrays " +idades02); //Para imprimir a posição desejada é só colocar o nome da
+        System.out.println("Idade usando Arrays " +idades05); //Para imprimir a posição desejada é só colocar o nome da
         // variável em seguida [] e dentro o número da posição. Caso contaria ele vai imprimeir o endereço de momémoria
         // que esse arrays está armazenado.
     }

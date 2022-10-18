@@ -12,11 +12,11 @@ public class Parte04TabelaVerdadeEExercicio {
          *F && F = F
          *V && V && V && V && V && F = F
          *Ou/or (||) - Desta tabela, o resultado só vai ser falso se todas as expressões forem falsas.
-         *V && V = V
-         *V && F = V
-         *F && V = V
-         *F && F = F
-         *F && F && F && F && F && V = V
+         *V || V = V
+         *V || F = V
+         *F || V = V
+         *F || F = F
+         *F || F || F || F || F || V = V
          */
         /*Exercício - Dado um determinado salário, eu quero saber qual o valor que eu tenho que pagar.
         *$0 à 34,712 - 9,70%
